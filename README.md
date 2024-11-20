@@ -62,15 +62,18 @@
 **Решение**
 1. Включил Ingress-controller в MicroK8S.</br>
 <img src="images/Task_2_1.png" alt="Task_2_1.png" width="400" height="auto"></br>
-
-
+2. Манифест [ingress.yaml](manifests/ingress.yaml)
+3. Проверяем работу </br>
+<img src="images/Task_2_2.png" alt="Task_2_2.png" width="400" height="auto"></br>
+4. Доступность frontend: </br>
+<img src="images/Task_2_3.png" alt="Task_2_3.png" width="400" height="auto"></br>
+5. Доступность api:</br>
+<img src="images/Task_2_4.png" alt="Task_2_4.png" width="400" height="auto"></br>
+6. Доступность frontend извне по IP виртуальной машины:</br>
+<img src="images/Task_2_5.png" alt="Task_2_5.png" width="400" height="auto"></br>
+7. Доступность api извне по IP виртуальной машины:</br>
+<img src="images/Task_2_6.png" alt="Task_2_6.png" width="400" height="auto"></br>
 
 ------
 
-### Правила приема работы
 
-1. Домашняя работа оформляется в своем Git-репозитории в файле README.md. Выполненное домашнее задание пришлите ссылкой на .md-файл в вашем репозитории.
-2. Файл README.md должен содержать скриншоты вывода необходимых команд `kubectl` и скриншоты результатов.
-3. Репозиторий должен содержать тексты манифестов или ссылки на них в файле README.md.
-
-------
